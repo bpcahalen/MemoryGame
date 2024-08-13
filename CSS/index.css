@@ -1,0 +1,75 @@
+html, 
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: gold;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.game_board{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 80px;
+    height: 100px;
+}
+
+h1{
+    font-family: Platypi;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px white;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 20px;
+}
+
+.button{
+    padding: 10px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    font-family: Platypi;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.score{
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card{
+    width: 100px;
+    height: 120px;
+}
+
+.front{
+
+}
+
+.back{
+
+}
+
+.flip{
+
+}
+
+
