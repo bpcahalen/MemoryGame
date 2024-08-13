@@ -9,7 +9,7 @@ const gameBoard = document.getElementById('board');
 
 document.getElementById('counter').textContent = score;
 
-fetch("Cards/index.json")
+fetch("index.json")
     .then(resp => resp.json()) 
     .then(data => { 
     cards = [...data, ...data];
