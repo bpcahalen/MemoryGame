@@ -10,41 +10,38 @@ const gameBoard = document.getElementById('board');
 document.getElementById('counter').textContent = score;
 
 fetch("index.json")
-    .then(resp => resp.json()) 
+    .then(response => {return response.json()})
     .then(data => { 
-    cards = [...data, ...data];
-    shuffle();
-    generateCards();
+        cards = [...data, ...data];
+        // shuffle();
+        generateCards();
+        
 })
 
-function shuffle(){
-    for(let i = cards.length; i > 0; i--){
-        let x = Math.floor(Math.random()*(i+1));
 
-        let start = cards[i];
-        cards[i] = cards[x];
-        cards[x] = start;
-    }
+function shuffle(){
+   
 };
 
 function generateCards(){
     for(let card of cards){
         const piece = document.createElement('div');
         piece.classList.add('card');
-        // piece.addEventListener('click', flipped());
         piece.setAttribute('data-name', card.name);
         piece.innerHTML = `
-        <div class="front"> 
-        <img src=${card.image}/>
+        <div>
+        <img class="front" src=${card.image}> </img>
         </div>
-        <div class="back"></div>
-        `;
+        <div class="back"></div>`
         gameBoard.appendChild(piece);
+        piece.addEventListener('click', flip);
     }
 };
 
 
-// flip(){};
+function flip(){
+    this.classList.add('flip');
+};
 
 // match(){};
 

@@ -1,0 +1,34 @@
+[
+    {
+        "name" : "Beetlejuice",
+        "image" : "./Playbills/beetlejuice.jpg"
+    },
+    {
+        "name" : "LesMis",
+        "image" : "./Playbills/lesMis.jpg"
+    },
+    {
+        "name" : "LittleShop",
+        "image" : "./Playbills/littleShop.jpg"
+    },
+    {
+        "name" : "MyFairLady",
+        "image" : "./Playbills/myFairLady.png"
+    },
+    {
+        "name" : "Rent",
+        "image" : "./Playbills/rent.jpg"
+    },
+    {
+        "name" : "SingingInTheRain",
+        "image" : "./Playbills/singing.jpg"
+    },
+    {
+        "name" : "WestSideStory",
+        "image" : "./Playbills/westSideStory.jpg"
+    },
+    {
+        "name" : "Wicked",
+        "image" : "./Playbills/wicked.jpg"
+    }
+]
