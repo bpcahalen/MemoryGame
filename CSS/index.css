@@ -97,9 +97,6 @@ h1{
     transform: rotateY(180deg);
 }
 
-
-
-
 footer{
     margin-top: 10px;
     width: 100%;
@@ -109,8 +106,28 @@ footer{
     align-items: center;
 }
 
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
 .socials{
-   
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 15px;
+}
+
+.gitHub{
+    margin-left: 5px;
+}
+
+.linkedIn{
+    margin-right: 5px;
 }
 
 .linkedInIcon{
@@ -120,5 +137,6 @@ footer{
 
 .gitHubIcon{
     font-size: 20px;
+    color: black;
 }
 
