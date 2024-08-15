@@ -78,6 +78,13 @@ h1{
     transform: rotateY(180deg);
 }
 
+.frontHCM{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
 .back{
     background-image: url('../Playbill_cover.jpg');
     backface-visibility: hidden;
